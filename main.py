@@ -31,7 +31,7 @@ def rock():
         printfuver = ("Stalemate, booth players choose rocks")
         printfu = Label(lowerframe, text=printfuver, fg="blue")
         printfu.pack()
-        sm += 1s
+        sm += 1
     if user == 1 and bot == 2:
         printfuver = ("Paper covers rock, bot wins! ")
         printfu = Label(lowerframe, text=printfuver, fg="red")
